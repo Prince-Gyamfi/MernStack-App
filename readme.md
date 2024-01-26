@@ -1,30 +1,67 @@
-# Goalsetter MERN app
+Goalsetter MERN App
 
-This is the goalsetter app from the [Learn the MERN Stack](https://www.youtube.com/watch?v=-0exw-9YJBo) series on YouTube.
+    This is the Goalsetter app from the Learn the MERN Stack course.
 
-## Usage
+Table of Contents
 
-Rename the .envexample to .env and add your MONGO_URI
+    Description
+    Usage
+    Installation
+    Run Server
+    Demo
+    Contributing
+    License
 
-### Install dependencies
+Description
 
-```
-# Backend deps
+The Goalsetter MERN app is a project developed as part of the Learn the MERN Stack course. It provides a platform for setting and managing goals.
+Usage
+
+    Rename the .envexample file to .env and add your MongoDB URI.
+    Install backend dependencies:
+
+    bash
+
 npm install
 
-# Frontend deps
+Install frontend dependencies:
+
+bash
+
+    cd frontend
+    npm install
+
+Installation
+Backend Dependencies
+
+bash
+
+npm install
+
+Frontend Dependencies
+
+bash
+
 cd frontend
 npm install
-```
 
-### Run Server
+Run Server
 
-```
+bash
+
 npm run server
-```
 
-## Demo
+Demo
 
-I am not sure how long this will be up
+Check out the live demo here.
+Contributing
 
-https://mernappbrad.herokuapp.com/
+    Fork the repository.
+    Create a new branch for your feature: git checkout -b feature-name.
+    Commit your changes: git commit -m 'Add some feature'.
+    Push to the branch: git push origin feature-name.
+    Submit a pull request.
+
+License
+
+This project is licensed under the MIT License.
