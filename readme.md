@@ -1,51 +1,33 @@
-Goalsetter MERN App
-
-    This is the Goalsetter app from the Learn the MERN Stack course.
-
-Table of Contents
-
-    Description
-    Usage
-    Installation
-    Run Server
-    Demo
-    Contributing
-    License
-
 Description
 
-The Goalsetter MERN app is a project developed as part of the Learn the MERN Stack course. It provides a platform for setting and managing goals.
-Usage
+The Goalsetter MERN App is a comprehensive project developed as part of the "Learn the MERN Stack" course. This application serves as a practical platform for users to set and manage their personal or professional goals, leveraging the full potential of the MERN stack (MongoDB, Express.js, React.js, Node.js).
+Installation
+Prerequisites
 
-    Rename the .envexample file to .env and add your MongoDB URI.
-    Install backend dependencies:
+Before you begin, ensure you have installed Node.js and MongoDB on your system.
+Setting Up the Application
+
+    Configure Environment Variables:
+        Rename .envexample to .env.
+        Update the .env file with your MongoDB URI.
+
+    Install Backend Dependencies:
 
     bash
 
 npm install
 
-Install frontend dependencies:
+Install Frontend Dependencies:
+Navigate to the frontend directory and install dependencies.
 
 bash
 
     cd frontend
     npm install
 
-Installation
-Backend Dependencies
+Running the Application
 
-bash
-
-npm install
-
-Frontend Dependencies
-
-bash
-
-cd frontend
-npm install
-
-Run Server
+To start the server, run the following command from the root directory:
 
 bash
 
@@ -53,15 +35,4 @@ npm run server
 
 Demo
 
-Check out the live demo here.
-Contributing
-
-    Fork the repository.
-    Create a new branch for your feature: git checkout -b feature-name.
-    Commit your changes: git commit -m 'Add some feature'.
-    Push to the branch: git push origin feature-name.
-    Submit a pull request.
-
-License
-
-This project is licensed under the MIT License.
+Experience the live demo of the Goalsetter MERN App: Goalsetter App Demo. https://goal-mernapp-06555cb8a1e5.herokuapp.com/
